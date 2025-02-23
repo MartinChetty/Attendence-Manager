@@ -1,0 +1,20 @@
+body {
+    margin: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #183D3D;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+ 
+:root {
+    --orange: #93B1A6;
+    --button: #93B1A6;
+    --blue: #93B1A6;
+}

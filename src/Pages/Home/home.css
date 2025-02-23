@@ -1,0 +1,133 @@
+.for-header{
+    display: flex;
+    justify-content: center;
+}
+
+.for-heading{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.disp {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 90px;
+    border-radius: 20px;
+    padding: 4rem;
+    margin: 3rem;
+    border: 2px solid #5C8374;
+}
+
+.classes {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.subject {
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+:is(.p, .a) {
+    border: none;
+    width: 90px;
+    font-size: 0.7rem;
+    height: 25px;
+    text-transform: uppercase;
+}
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.attendance-percentage-value {
+    color: whitesmoke;
+}
+
+.p {
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.a {
+    color: white;
+    background-color: rgb(238, 60, 60);
+    border-radius: 10px;
+    font-weight: 300;
+    height: 30px;
+}
+
+.am {
+    color: var(--blue);
+}
+
+.news {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9rem;
+    background-color: var(--button);
+}
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.U-D-icons {
+    height: 100%;
+    width: 30px;
+}
+
+:is(.delete, .undo) {
+    border-radius: 60%;
+    display: flex;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.undo-delete {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.home-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media (max-width:539px){
+    .disp {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        width: 25rem;
+        height: 90px;
+        border-radius: 20px;
+        padding: 4rem;
+        margin: 3rem;
+        border-radius: 12px;
+    }
+}

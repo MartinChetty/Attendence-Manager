@@ -1,0 +1,7 @@
+.App{
+    border: 3px solid var(--orange);
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: hidden;
+    height: 96vh;
+}
